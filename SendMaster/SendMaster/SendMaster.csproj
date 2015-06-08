@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A92716E-DF64-4151-B641-AE8F7F400BEE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SendMaster</RootNamespace>
+    <AssemblyName>SendMaster</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppProperties.cs" />
+    <Compile Include="AppSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppSettings.Designer.cs">
+      <DependentUpon>AppSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attachments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attachments.Designer.cs">
+      <DependentUpon>Attachments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DistMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistMessage.Designer.cs">
+      <DependentUpon>DistMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DistServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistServices.Designer.cs">
+      <DependentUpon>DistServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DistAddresses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistAddresses.Designer.cs">
+      <DependentUpon>DistAddresses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ICopy.cs" />
+    <Compile Include="MailEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MailEdit.Designer.cs">
+      <DependentUpon>MailEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageService.cs" />
+    <Compile Include="Sender.cs" />
+    <Compile Include="SenderEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SenderEdit.Designer.cs">
+      <DependentUpon>SenderEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendMailResult.cs" />
+    <Compile Include="SendMessageHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendMessageHistory.Designer.cs">
+      <DependentUpon>SendMessageHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendProcess.Designer.cs">
+      <DependentUpon>SendProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SerializableMailMessage.cs" />
+    <Compile Include="Service.cs" />
+    <Compile Include="ServiceEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceEdit.Designer.cs">
+      <DependentUpon>ServiceEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServicesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServicesForm.Designer.cs">
+      <DependentUpon>ServicesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AppSettings.resx">
+      <DependentUpon>AppSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attachments.resx">
+      <DependentUpon>Attachments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistAddresses.resx">
+      <DependentUpon>DistAddresses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistMessage.resx">
+      <DependentUpon>DistMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistServices.resx">
+      <DependentUpon>DistServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MailEdit.resx">
+      <DependentUpon>MailEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SenderEdit.resx">
+      <DependentUpon>SenderEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendMessageHistory.resx">
+      <DependentUpon>SendMessageHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendProcess.resx">
+      <DependentUpon>SendProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceEdit.resx">
+      <DependentUpon>ServiceEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicesForm.resx">
+      <DependentUpon>ServicesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kuba_Envelope_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\middle-mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4353_800.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4353_8001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attach_document.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

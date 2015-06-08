@@ -1,0 +1,63 @@
+c:\users\vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\bin\Debug\SendMaster.exe.config
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.MainForm.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.Properties.Resources.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.ServicesForm.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.Start.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.csproj.GenerateResource.Cache
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.SenderEdit.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.ServiceEdit.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\bin\Debug\SendMaster.exe
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\bin\Debug\SendMaster.pdb
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.exe
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.pdb
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.DistAddresses.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.DistServices.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.MailEdit.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.DistMessage.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.Attachments.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.SendProcess.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.AppSettings.resources
+C:\Users\Vladimir\documents\visual studio 2012\Projects\SendMaster\SendMaster\obj\Debug\SendMaster.SendMessageHistory.resources
+E:\Курсовой .NET\SendMaster\SendMaster\bin\Debug\SendMaster.exe.config
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.exe
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.pdb
+E:\Курсовой .NET\SendMaster\SendMaster\bin\Debug\SendMaster.exe
+E:\Курсовой .NET\SendMaster\SendMaster\bin\Debug\SendMaster.pdb
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.csprojResolveAssemblyReference.cache
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.AppSettings.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.Attachments.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.DistAddresses.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.DistMessage.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.DistServices.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.MailEdit.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.MainForm.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.Properties.Resources.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.SenderEdit.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.SendMessageHistory.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.SendProcess.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.ServiceEdit.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.ServicesForm.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.Start.resources
+E:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.csproj.GenerateResource.Cache
+G:\Курсовой .NET\SendMaster\SendMaster\bin\Debug\SendMaster.exe.config
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.exe
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.pdb
+G:\Курсовой .NET\SendMaster\SendMaster\bin\Debug\SendMaster.exe
+G:\Курсовой .NET\SendMaster\SendMaster\bin\Debug\SendMaster.pdb
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.csprojResolveAssemblyReference.cache
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.AppSettings.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.Attachments.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.DistAddresses.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.DistMessage.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.DistServices.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.MailEdit.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.MainForm.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.Properties.Resources.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.SenderEdit.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.SendMessageHistory.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.SendProcess.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.ServiceEdit.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.ServicesForm.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.Start.resources
+G:\Курсовой .NET\SendMaster\SendMaster\obj\Debug\SendMaster.csproj.GenerateResource.Cache
